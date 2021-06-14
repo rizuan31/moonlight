@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_background"
+    tools:context=".FirstFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="363dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="81dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="182dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="181dp"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="182dp"
+                        android:layout_height="182dp"
+                        android:rotationX="3"
+                        android:src="@mipmap/image1" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="11dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="237dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:text="Moonlight"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    app:autoSizeTextType="uniform" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="36dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="248dp"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="18dp" />
+
+                    <Button
+                        android:id="@+id/button_tuntun"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:backgroundTint="#5CCC18"
+                        android:text="Tuntunan Sholat"
+                        app:autoSizeTextType="uniform"/>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="18dp" />
+
+                    <Button
+                        android:id="@+id/button_iman"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:backgroundTint="#5CCC18"
+                        android:text="Rukun iman"
+                        app:autoSizeTextType="uniform"/>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="18dp" />
+
+                    <Button
+                        android:id="@+id/button_islam"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:backgroundTint="#5CCC18"
+                        android:text="Rukun Islam"
+                        app:autoSizeTextType="uniform"/>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="11dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+    </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
